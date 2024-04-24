@@ -1,0 +1,46 @@
+PODS:
+  - ffmpeg-kit-macos-full-gpl (6.0)
+  - ffmpeg_kit_flutter_full_gpl (6.0.3):
+    - ffmpeg_kit_flutter_full_gpl/full-gpl (= 6.0.3)
+    - FlutterMacOS
+  - ffmpeg_kit_flutter_full_gpl/full-gpl (6.0.3):
+    - ffmpeg-kit-macos-full-gpl (= 6.0)
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter_full_gpl (from `Flutter/ephemeral/.symlinks/plugins/ffmpeg_kit_flutter_full_gpl/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+  - video_player_avfoundation (from `Flutter/ephemeral/.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-macos-full-gpl
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter_full_gpl:
+    :path: Flutter/ephemeral/.symlinks/plugins/ffmpeg_kit_flutter_full_gpl/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+  video_player_avfoundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/video_player_avfoundation/darwin
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-macos-full-gpl: c9bd04ddd4dc777db0ecda4e342bb4f5ad972157
+  ffmpeg_kit_flutter_full_gpl: 29a39b7a0cef8199794e41bcef72cadff167c2a5
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  video_player_avfoundation: 2b4384f3b157206b5e150a0083cdc0c905d260d3
+
+PODFILE CHECKSUM: 6acf97521436d16fc31cd5e1a02000905acdb3ae
+
+COCOAPODS: 1.15.2
