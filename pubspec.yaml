@@ -5,7 +5,7 @@ homepage: https://github.com/polarby/render
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
-  flutter: '>=3.21.0'
+  flutter: '>=3.19.6'
 
 dependencies:
 #   ffmpeg_kit_flutter: ^6.0.3
